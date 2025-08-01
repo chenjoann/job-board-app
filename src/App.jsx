@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const webhookUrl = 'https://script.google.com/macros/s/AKfycbwPQQeqE3TBni3iML4yRH2RfPsQfLewMOWE1mXVlAFTn6a7tvAQaejv9Cu2fJ4BjLRP/exec';
+const webhookUrl = 'https://script.google.com/macros/s/AKfycbweP56YgUC7rGEqa_bLGLJqBPTL6Db6KApZugVQYXS4nokpasL7dW0BKiIIN1MEPmay/exec';
 const sheetJsonUrl = 'https://opensheet.elk.sh/1xyLbARlvxmDLkbrEaMPIxObGMiqIuhSBm6OKJh_WPLE/工作表1';
 
 export default function App() {
