@@ -12,7 +12,7 @@ function App() {
 
   const webhookUrl = 'https://script.google.com/macros/s/AKfycbwPQQeqE3TBni3iML4yRH2RfPsQfLewMOWE1mXVlAFTn6a7tvAQaejv9Cu2fJ4BjLRP/exec';
 
-  const sheetJsonUrl = 'https://opensheet.elk.sh/1qttA9chHlsxeex-WLIt3lsExBYi4ws2ZGdyYcm4csoY/工作表1';
+  const sheetJsonUrl = 'https://opensheet.elk.sh/1xyLbARlvxmDLkbrEaMPIxObGMiqIuhSBm6OKJh_WPLE/工作表1';
 
   const handleChange = e => setFormData({...formData, [e.target.name]: e.target.value});
   const handleSubmit = async () => {
