@@ -10,7 +10,7 @@ function App() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const webhookUrl = 'https://script.google.com/macros/s/AKfycbzYc2NTdDYGpRKJADWF_t_FSxBPupT6r5cjkbQS-D5FCEYKSEA0lq_ShqnjUggRLYud/exec';
+  const webhookUrl = 'https://script.google.com/macros/s/AKfycbwPQQeqE3TBni3iML4yRH2RfPsQfLewMOWE1mXVlAFTn6a7tvAQaejv9Cu2fJ4BjLRP/exec';
 
   const sheetJsonUrl = 'https://opensheet.elk.sh/1qttA9chHlsxeex-WLIt3lsExBYi4ws2ZGdyYcm4csoY/工作表1';
 
