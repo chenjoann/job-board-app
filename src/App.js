@@ -10,7 +10,8 @@ function App() {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const webhookUrl = 'https://script.google.com/macros/s/AKfycbzYc2NTdDYGpRKJ.../exec';
+  const webhookUrl = 'https://script.google.com/macros/s/AKfycbzYc2NTdDYGpRKJADWF_t_FSxBPupT6r5cjkbQS-D5FCEYKSEA0lq_ShqnjUggRLYud/exec';
+
   const sheetJsonUrl = 'https://opensheet.elk.sh/1qttA9chHlsxeex-WLIt3lsExBYi4ws2ZGdyYcm4csoY/工作表1';
 
   const handleChange = e => setFormData({...formData, [e.target.name]: e.target.value});
